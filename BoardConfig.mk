@@ -12,7 +12,14 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 
+#  device tree path
 DEVICE_PATH := device/xiaomi/phoenix
+
+# allow missing dependencies true
+ALLOW_MISSING_DEPENDENCIES=true
+
+# A/B
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Architecture
 TARGET_ARCH := arm64
