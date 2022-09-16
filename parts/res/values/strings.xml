@@ -61,4 +61,7 @@
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
 
+    <!-- Refresh Rate Title -->
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
+
 </resources>
