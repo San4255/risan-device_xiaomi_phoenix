@@ -19,7 +19,7 @@ DEVICE_PATH := device/xiaomi/phoenix
 ALLOW_MISSING_DEPENDENCIES=true
 
 # A/B
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+#BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Architecture
 TARGET_ARCH := arm64

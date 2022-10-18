@@ -7,10 +7,10 @@
 $(call inherit-product, device/xiaomi/phoenix/device.mk)
 
 # Inherit some common riceDroid stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_phoenix
+PRODUCT_NAME := derp_phoenix
 PRODUCT_DEVICE := phoenix
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X2
@@ -21,7 +21,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_ENABLE_BLUR := true
+TARGET_ENABLE_BLUR := false
 WITH_GMS := true
 
 # Fingerprint
@@ -33,5 +33,4 @@ BUILD_FINGERPRINT := google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/relea
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Maintainer Stuff
-RICE_MAINTAINER := SharmaG
-RICE_OFFICIAL := true
+DERP_BUILDTYPE := Unofficial
